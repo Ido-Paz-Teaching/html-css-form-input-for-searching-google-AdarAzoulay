@@ -1,0 +1,14 @@
+*{
+    display: block;
+    margin: 5px;
+}
+
+label{
+    font-weight: bold;
+
+}
+
+input[type=submit]{
+color:green;
+border-radius: 25px;
+}
