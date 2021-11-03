@@ -1,24 +1,23 @@
-<!DOCTYPE html>
 <html>
 <head>
 <title>Google Form</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<form action="http://www.google.com/search?" target="_blank" autocomplete="on">
-    <label for="q">Search text:</label>
+<form action="http://www.google.com/search?" target="_blank">
+    <label>Search text:</label>
     <input type="search" id="q" name="q" required placeholder="Enter text">
-    <label for="as_qdr"> That was update in </label>
-    <select id="as_qdr" name="as_qdr" size="1">
+    <label > That was update in </label>
+    <select id="as_qdr" name="as_qdr" >
     <option value="" selected> Anytime</option>
     <option value="d" >Previous 24 hours</option>
     <option value="w"  >Previous seven days </option>
     <option value="m">Previous month</option>
     <option value="y" >Past year</option>
     </select>
-    <label for="lr" > Search only pages written in hebrew :</label>
+    <label> Search only pages written in hebrew :</label>
     <input type="checkbox" id="lr" name="lr" value="lang_iw">
-    <label for="num">Number of results:</label>
+    <label >Number of results:</label>
     <input type="number" id="num" name="num" min="1" max="25" placeholder="Enter n">
     <input type="submit" value="Ask Google" >
 </form>

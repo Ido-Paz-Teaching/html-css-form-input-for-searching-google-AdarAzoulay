@@ -1,6 +1,12 @@
+/*
 *{
     display: block;
     margin: 5px;
+}
+*/
+    label, input{
+        display: block;
+        margin: 5px;
 }
 
 label{
